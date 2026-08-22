@@ -19,28 +19,16 @@ export function AboutPage() {
 
   const contacts = [
     {
-      name: 'Arjun Sharma',
+      name: 'Md Suleman',
       role: 'Founder & CEO',
-      email: 'arjun.sharma@kiensports.com',
-      phone: '+91 98765 43210',
+      email: 'founder@kiensports.com',
+      phone: '+91 7986736102',
     },
     {
-      name: 'Priya Patel',
-      role: 'Head of Product',
-      email: 'priya.patel@kiensports.com',
-      phone: '+91 98765 43211',
-    },
-    {
-      name: 'Rahul Singh',
-      role: 'Customer Experience Lead',
-      email: 'rahul.singh@kiensports.com',
-      phone: '+91 98765 43212',
-    },
-    {
-      name: 'Ananya Reddy',
-      role: 'Business Development',
-      email: 'ananya.reddy@kiensports.com',
-      phone: '+91 98765 43213',
+      name: 'Muhammad Sultan',
+      role: 'Co-Founder & COO',
+      email: 'coo@kiensports.com',
+      phone: '+91 9801699065',
     },
   ];
 
@@ -210,18 +198,6 @@ export function AboutPage() {
               </motion.div>
             ))}
           </div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={contactVisible ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="mt-12 text-center"
-          >
-            <div className="inline-flex items-center gap-2 text-sm text-kien-grey">
-              <MapPin className="w-4 h-4" />
-              <span>KIEN Sports Private Limited, Mumbai, Maharashtra, India</span>
-            </div>
-          </motion.div>
         </div>
       </section>
 

@@ -62,8 +62,8 @@ export function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-sm">Phone</h3>
-                    <a href="tel:+919876543210" className="text-sm text-kien-grey hover:text-kien-black transition-colors">
-                      +91 98765 43210
+                    <a href="tel:+917763068476" className="text-sm text-kien-grey hover:text-kien-black transition-colors">
+                      +91 7763068476
                     </a>
                     <p className="text-xs text-kien-grey mt-1">Mon-Sat, 10 AM - 7 PM IST</p>
                   </div>
@@ -75,9 +75,9 @@ export function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-sm">Address</h3>
                     <p className="text-sm text-kien-grey">
-                      KIEN Sports Private Limited<br />
-                      Andheri West, Mumbai 400053<br />
-                      Maharashtra, India
+                      Kien Sports Private Limited<br />
+                      Sector-D, Near Al-Shifa Hospital<br />
+                      New Azimabad Colony, Patna, Bihar 800006, India
                     </p>
                   </div>
                 </div>

@@ -52,7 +52,7 @@ export function Footer() {
             </h4>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com/official_kiensports"
+                href="https://instagram.com/officialkiensports"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/60 hover:text-white transition-colors"
@@ -61,7 +61,7 @@ export function Footer() {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="https://facebook.com/kiensports"
+                href="https://www.facebook.com/officialkiensports"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/60 hover:text-white transition-colors"
