@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-kien-black bg-kien-white;
+  }
+
+  ::selection {
+    @apply bg-kien-black text-white;
+  }
+}
+
+@layer components {
+  .kien-container {
+    @apply max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12;
+  }
+
+  .kien-section {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+
+  .kien-heading {
+    @apply font-bold uppercase tracking-tight;
+  }
+
+  .kien-btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-3.5 bg-kien-black text-white text-sm font-semibold uppercase tracking-wider hover:bg-kien-charcoal transition-colors duration-300;
+  }
+
+  .kien-btn-secondary {
+    @apply inline-flex items-center justify-center px-8 py-3.5 border border-kien-black text-kien-black text-sm font-semibold uppercase tracking-wider hover:bg-kien-black hover:text-white transition-colors duration-300;
+  }
+
+  .kien-btn-white {
+    @apply inline-flex items-center justify-center px-8 py-3.5 bg-white text-kien-black text-sm font-semibold uppercase tracking-wider hover:bg-kien-light-grey transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
